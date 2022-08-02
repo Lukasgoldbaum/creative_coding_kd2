@@ -1,3 +1,72 @@
+html, body {
+    margin: 0;
+}
+
+
+
+
+/* video
+{
+    position: absolute;
+    top: 25%;
+    left:25%;
+    width:50%;
+    height:50%;
+    z-index: -1;
+    object-fit: cover;
+
+}  
+*/
+
+video {
+    width: 60vw;
+    height: calc(100/3)vh;
+}
+
+
+.grid {
+    display: grid; /* das schaltet grid an */
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.item-center {
+   
+    /* background-color: yellow; */
+    /* grid-column-start: 1;
+    grid-column-end: span col4-start; */
+    overflow: hidden;
+    backgroud-color: red;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+
+
+
+.item-center h1
+{
+   
+    background:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 10vh;
+    mix-blend-mode: screen;
+    font-stretch:wider;
+
+}
+
+
+
+
+
+
+
+/*
 h1{
     color: lightblue;
     font-size: 20em;
@@ -12,7 +81,7 @@ p{
 }
 
 
-{margin:0;
+ {margin:0;
 padding:0;
 }
 
@@ -29,7 +98,7 @@ padding:0;
 
 
 }
-.banner video
+video
 {
     position: absolute;
     top: 00%;
@@ -64,3 +133,4 @@ padding:0;
     background-image: url(Daily_49_m1.png);
     background-size: cover;
 }
+*/
